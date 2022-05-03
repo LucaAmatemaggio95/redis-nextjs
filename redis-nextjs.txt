@@ -1,0 +1,16 @@
+redis -> cloud database
+rimane in memory
+data persisted in cloud
+
+npx create-next-app redisapp
+
+npm i redis-om -> object mapping tipo EF
+
+creo lib/redis.js -> connetto al db e creo la funzione per inserire un nuovo record
+
+cartella API -> cars.js -> definisco le API di cars/
+
+
+redisearch
+
+creo l'API per settare l'index sul DB e la chiamo a mano dal browser -> lo devo fare solo una volta
