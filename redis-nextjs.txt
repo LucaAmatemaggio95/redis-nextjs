@@ -10,6 +10,13 @@ creo lib/redis.js -> connetto al db e creo la funzione per inserire un nuovo rec
 
 cartella API -> cars.js -> definisco le API di cars/
 
+per collegare il DB -> creare file .env.local e inserire la seguente variabile
+
+REDIS_URL=redis://default:PASSWORD@HOST:PORT
+
+PASSWORD: password utente db redis
+HOST: url db redis
+PORT: porta db
 
 redisearch
 
